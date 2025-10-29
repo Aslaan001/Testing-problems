@@ -1,0 +1,69 @@
+## Title  
+Reverse Story Pages  
+
+## Slug  
+reverse-story-pages  
+
+## Difficulty  
+Easy  
+
+## Description  
+
+A storybook's pages are linked as a singly linked list from first to last. For a special edition, the publisher wants the pages in reverse order so the final page becomes the first.  
+
+You are given the head of the linked list of page numbers; reverse it and return the new head.  
+
+
+## Examples  
+
+### 1  
+
+#### Input  
+5  
+10 20 30 40 50  
+
+#### Output  
+50 40 30 20 10  
+
+#### Explanation  
+Pages order reversed from last to first.  
+
+
+### 2  
+
+#### Input  
+4  
+5 10 15 20  
+
+#### Output  
+20 15 10 5  
+
+#### Explanation  
+Reversed page sequence.  
+
+
+## Input Format  
+- First line: integer n — the number of nodes in the linked list.  
+- Second line: n integers representing the data values of each node.  
+
+Note: The nodes are provided as a linked list in order.  
+
+
+## Output Format  
+Return the new head of the reversed linked list, printed from head to tail.  
+
+
+## Constraints  
+- 1 ≤ n ≤ 1000  
+- 0 ≤ node.val ≤ 1000  
+
+
+## Time Limit  
+1 second  
+
+## Memory Limit  
+512 MB  
+
+
+## Tags  
+linked-list, reverse, basic
