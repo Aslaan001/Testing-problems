@@ -20,7 +20,6 @@ You have been appointed as the Celestial Mathematician, and your task is to iden
 Return this maximum average brightness, accurate up to 10⁻⁵.
 
 
-
 ## Examples
 
 ### 1
@@ -38,9 +37,9 @@ Return this maximum average brightness, accurate up to 10⁻⁵.
 #### Explanation
 
 The subarray `[12, -5, -6, 50]` has the highest average:  
-\[
+[
 (12 - 5 - 6 + 50) / 4 = 12.75
-\]
+]
 
 ### 2
 
@@ -87,4 +86,4 @@ Only one element exists, so the average is `5.00000`.
 
 ## Tags
 
-sliding-window, arrays. 
+sliding-window, array 
