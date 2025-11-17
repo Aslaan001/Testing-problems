@@ -76,4 +76,4 @@ Event code 3 is unique → index 4.
 
 ## Tags
 
-arrays .
+array
