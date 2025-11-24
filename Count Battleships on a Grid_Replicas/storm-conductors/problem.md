@@ -1,0 +1,74 @@
+## Title
+Storm Conductors
+
+## Slug
+storm-conductors
+
+## Difficulty
+
+Medium
+
+## Description
+You are given a 2D grid representing a terrain map.  
+Each cell contains either:
+
+- 'X' — part of a storm conductors  
+- '.' — empty ground  
+
+A storm conductors structure occupies consecutive cells in a straight line, either horizontally or vertically.  
+No two storm conductors structures touch each other horizontally or vertically; there is always at least one cell of separation between any two structures.
+
+Your task is to count how many distinct storm conductors structures are present on the map.
+
+Each structure is either:
+
+- 1 × k (horizontal)
+- k × 1 (vertical)
+
+## Examples
+
+### 1
+
+#### Input
+3 4  
+X . . X  
+. . . X  
+. . . X  
+
+#### Output
+2
+
+### 2
+
+#### Input
+1 1  
+.  
+
+#### Output
+0
+
+## Input Format
+
+- First line: two integers m and n  
+- Next m lines: n characters ('.' or 'X') representing the board
+
+## Output Format
+
+- Return a single integer: the number of battleships on the board
+
+## Constraints
+
+- 1 ≤ m, n ≤ 200  
+- Each cell is either '.' or 'X'
+
+## Time Limit
+
+1 second
+
+## Memory Limit
+
+512 MB
+
+## Tags
+
+grid, counting, scanning, arrays
