@@ -63,4 +63,4 @@ Your task is to count all such contiguous subarrays that satisfy this condition 
 
 ## Tags
 
-arrays .
+array

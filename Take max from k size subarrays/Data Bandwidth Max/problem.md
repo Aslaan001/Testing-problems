@@ -48,4 +48,4 @@ One integer — maximum bandwidth sum.
 512 MB
 
 ## Tags
-arrays, sliding-window
+array, sliding-window

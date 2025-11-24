@@ -71,4 +71,4 @@ Heirs `[9, 1, 4, 5]` sum to `19`.
 
 ## Tags
 
-binary-tree, bfs
+binary-tree, breadth-first-search

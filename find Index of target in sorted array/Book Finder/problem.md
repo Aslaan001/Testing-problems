@@ -78,4 +78,4 @@ Return the `index` of the book, or `-1` if not found.
 
 ## Tags
 
-binary-search, arrays.
+binary-search, array
