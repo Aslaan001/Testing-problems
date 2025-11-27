@@ -26,4 +26,3 @@ function deepestLeavesSum(root) {
 
 def deepestLeavesSum(root):
     # add your code here
-    pass

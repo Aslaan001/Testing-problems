@@ -69,12 +69,6 @@ public int deepestLeavesSum(TreeNode root) {
 
 ### SOLUTION
 
-struct TreeNode {
-    int val;
-    struct TreeNode* left;
-    struct TreeNode* right;
-};
-
 int deepestLeavesSum(struct TreeNode* root) {
     if (!root) return 0;
     struct TreeNode* queue[10000];

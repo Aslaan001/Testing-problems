@@ -49,7 +49,7 @@ int main() {
     }
 }
 
----
+
 
 ## JAVA
 
@@ -101,7 +101,7 @@ public class Main {
     }
 }
 
----
+
 
 ## C
 
@@ -160,7 +160,7 @@ int main() {
     }
 }
 
----
+
 
 ## JAVASCRIPT
 
@@ -207,7 +207,7 @@ while (t--) {
   // evaluation completed
 }
 
----
+
 
 ## PYTHON
 
