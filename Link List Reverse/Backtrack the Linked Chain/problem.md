@@ -48,7 +48,7 @@ Reversing the list switches the direction of pointers.
 Note: The nodes are provided as a linked list in order.  
 
 ## Output Format  
-Return the new head of the reversed linked list, printed from head to tail.  
+Return the new head of the reversed linked list. 
 
 ## Constraints  
 - 1 ≤ n ≤ 1000  
