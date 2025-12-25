@@ -1,0 +1,109 @@
+## Title
+
+Security Signal Completeness Checker
+
+## Slug
+
+security-signal-completeness-checker
+
+## Difficulty
+
+Medium
+
+## Description
+
+A monitoring module evaluates streams of symbolic events produced by protected modules.     Rather
+than inspecting individual markers in isolation, the module focuses on continuous     windows that
+collectively demonstrate a full interaction cycle. Counting how many such     windows contain every
+required event helps teams assess consistency and reliability across     the platform.
+
+## Examples
+
+### 1
+
+#### Input
+
+abcabc
+
+#### Output
+
+10
+
+#### Explanation
+
+The valid communication windows are:
+
+- abc  
+- abca  
+- abcab  
+- abcabc  
+- bca  
+- bcab  
+- bcabc  
+- cab  
+- cabc  
+- abc  
+
+Each of these substrings contains all three required signal markers.
+
+### 2
+
+#### Input
+
+aaacb
+
+#### Output
+
+3
+
+#### Explanation
+
+The valid communication windows are:
+
+- aaacb  
+- aacb  
+- acb  
+
+### 3
+
+#### Input
+
+abc
+
+#### Output
+
+1
+
+#### Explanation
+
+Only one contiguous window exists, and it contains all required signals.
+
+## Input Format
+
+- A single string `s` representing the communication signal stream  
+- The string consists only of characters `a`, `b`, and `c`
+
+## Output Format
+
+- Return a single integer — the number of valid communication windows
+
+## Constraints
+
+- 3 ≤ length of `s` ≤ 5 × 10⁴  
+- `s[i]` ∈ { `a`, `b`, `c` }
+
+## Time Limit
+
+1 second
+
+## Memory Limit
+
+512 MB
+
+## Company
+
+deshaw
+
+## Tags
+
+string
